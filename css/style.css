@@ -58,7 +58,7 @@ html {
 
 
 body {
-    width: 1600px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -66,26 +66,33 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
 
-
+    margin: 0;
 
     color: #212121;
 
 
 }
 
-/* Header start */
 
-.header {
-
-    height: 80px;
+.conteiner {
     margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1600px;
 
 }
 
+/* Header start */
+
+
 .header_wrapper {
+
+    min-width: 1600px;
+    min-height: 80px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-color: antiquewhite;
 
 
 
@@ -116,7 +123,9 @@ body {
 
 }
 
-.main_menu_list-link:hover,.main_menu_list-link:focus,.main_menu_list-link:active{
+.main_menu_list-link:hover,
+.main_menu_list-link:focus,
+.main_menu_list-link:active {
     color: #2196F3;
     text-decoration: underline;
 }
@@ -124,7 +133,7 @@ body {
 .logo {
     margin-left: 215px;
     margin-right: 93px;
-    
+
 }
 
 
@@ -136,7 +145,9 @@ body {
     font-weight: 400;
 }
 
-.email-link:hover,.email-link:focus,.email-link:active{
+.email-link:hover,
+.email-link:focus,
+.email-link:active {
     color: #2196F3;
     text-decoration: underline;
 }
@@ -146,9 +157,45 @@ body {
     text-decoration: none;
 }
 
-.phone-link:hover,.phone-link:focus,.phone-link:active{
+.phone-link:hover,
+.phone-link:focus,
+.phone-link:active {
     color: #2196F3;
     text-decoration: underline;
 }
 
 /* Header end */
+
+/* Main start */
+
+.order {
+    background-color: #2F303A;
+    min-width: 1600px;
+    min-height: 600px;
+    text-align: center;
+
+}
+
+.order_h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.order_table {
+    margin: 0 auto;
+    width: 696px;
+    height: 120px;
+    
+    
+}
+
+/* Main end */
