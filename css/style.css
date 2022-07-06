@@ -56,8 +56,9 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
-    min-width: 1600px;
+    min-width: 1630px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -65,17 +66,23 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
 
+
+
     color: #212121;
 
+
+    padding: 0px 15px;
 }
 
 /* Header start */
 
 .header {
-    
+
     height: 80px;
     margin: 0 auto;
 
+
+    background-color: antiquewhite;
 
 }
 
