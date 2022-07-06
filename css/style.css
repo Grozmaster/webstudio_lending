@@ -172,11 +172,12 @@ body {
     background-color: #2F303A;
     min-width: 1600px;
     min-height: 600px;
-    text-align: center;
 
 }
 
 .order_h1 {
+    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -188,19 +189,23 @@ body {
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    text-align: center;
+
+    
 }
 
-.order_table {
-    margin: 0 auto;
-    width: 696px;
-    height: 120px;
-    margin-bottom: 30px;
-
-
+.order_block{
+    
+    position: absolute;
+    top: 200px;
+    left: 452px;
+     width: 696px;
+     height: 120px; 
+    background-color: rgb(103, 200, 68);
+    
 }
 
-.order_button {
-   
-}
+
 
 /* Main end */
