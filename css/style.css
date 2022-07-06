@@ -58,7 +58,7 @@ html {
 
 
 body {
-    min-width: 1630px;
+    width: 1600px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -71,7 +71,6 @@ body {
     color: #212121;
 
 
-    padding: 0px 15px;
 }
 
 /* Header start */
@@ -80,9 +79,6 @@ body {
 
     height: 80px;
     margin: 0 auto;
-
-
-    background-color: antiquewhite;
 
 }
 
