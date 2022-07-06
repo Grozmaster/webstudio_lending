@@ -57,6 +57,7 @@ html {
 }
 
 body {
+    min-width: 1600px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -71,9 +72,9 @@ body {
 /* Header start */
 
 .header {
-    max-width: 1600px;
+    
     height: 80px;
-    margin: auto;
+    margin: 0 auto;
 
 
 }
