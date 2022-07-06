@@ -116,6 +116,10 @@ body {
 
 }
 
+.main_menu_list-link:hover,.main_menu_list-link:focus,.main_menu_list-link:active{
+    color: #2196F3;
+}
+
 .logo {
     margin-left: 215px;
     margin-right: 93px;
@@ -127,6 +131,10 @@ body {
     color: #212121;
     text-decoration: none;
     font-weight: 400;
+}
+
+.email-link:hover,.email-link:focus,.email-link:active{
+    color: #2196F3;
 }
 
 .phone-link {
