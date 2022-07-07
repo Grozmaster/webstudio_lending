@@ -168,7 +168,7 @@ body {
 
 /* Main start */
 
-.order {
+.main {
     background-color: #2F303A;
     width: 1600px;
     height: 600px;
@@ -181,9 +181,6 @@ body {
 .order_block {
     margin-left: 452px;
     margin-top: 200px;
-    width: 696px;
-    height: 120px;
-    /* background-color: rgb(103, 200, 68); */
 
 }
 
@@ -197,31 +194,33 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
+
+
+    max-width: 696px;
+    margin-bottom: 30px;
+
 }
 
 .order_button {
-    width: 200px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 700px;
-    background: #2196F3;
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-    border-radius: 4px;
-
-    font-family: 'Roboto';
-    font-style: normal;
+    padding: 10px 32px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    /* display: flex; */
-    /* align-items: center; */
-    text-align: center;
-    letter-spacing: 0.06em;
+    color: white;
+    background: #2196F3;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 700px;
 
-    color: #FFFFFF;
+    max-width: 200px;
+    
+
 }
 
-
+.order_button:hover,.order_button:active,.order_button:focus{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background: #1185e3;
+    
+}
 
 
 
