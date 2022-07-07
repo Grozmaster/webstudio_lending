@@ -235,13 +235,15 @@ body {
 
 }
 
+/* Peculiarities */
 .peculiarities {
 
     min-width: 1170px;
     min-height: 101px;
     margin-left: 215px;
     margin-right: 215px;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
+    margin-bottom: 94px;
 }
 
 .peculiarities_list {
@@ -283,6 +285,38 @@ p.peculiarities_p {
 
     color: #757575;
     /* background-color: aquamarine; */
+}
+
+/* What_are_we_doing */
+
+.what_are_we_doing {
+    min-width: 1170px;
+    min-height: 386px;
+
+    margin-left: 215px;
+    margin-right: 215px;
+    /* background-color: aquamarine; */
+    margin-bottom: 94px;
+}
+
+h2.what_are_we_doing {
+    min-width: 376px;
+    min-height: 42px;
+
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+
+img.what_are_we_doing-td {
+    margin-right: 30px;
 }
 
 /* Main end */
