@@ -75,6 +75,7 @@ body {
 
 
 .conteiner {
+
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -98,6 +99,7 @@ body {
 
 
 }
+
 
 .main_menu_list {
     display: flex;
@@ -243,7 +245,7 @@ body {
     margin-left: 215px;
     margin-right: 215px;
     /* background-color: antiquewhite; */
-    margin-bottom: 94px;
+
 }
 
 .peculiarities_list {
@@ -288,35 +290,121 @@ p.peculiarities_p {
 }
 
 /* What_are_we_doing */
-
 .what_are_we_doing {
+    min-width: 1600px;
+    /* min-height: 648px; */
+}
+
+.what_are_we_doing-div {
     min-width: 1170px;
     min-height: 386px;
 
     margin-left: 215px;
     margin-right: 215px;
     /* background-color: aquamarine; */
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
 }
 
-h2.what_are_we_doing {
-    min-width: 376px;
-    min-height: 42px;
+h2.what_are_we_doing_h2 {
+    padding: 94px 612px 50px 612px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
 
 
-    font-weight: 700;
+img.what_are_we_doing-td {
+    margin-right: 30px;
+}
+
+/* Our team */
+
+.our_team {
+
+
+    border: none;
+
+    min-width: 1600px;
+    min-height: 648px;
+    background: #F5F4FA;
+
+}
+
+.our_team_box {
+    padding: 94px 668px 50px 668px;
+
+}
+
+h2.our_team_h2 {
+    font-weight: 500;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
 
     color: #212121;
-    margin-bottom: 50px;
 }
 
+.photo_team {
+    padding-left: 215px;
+    padding-right: 215px;
+    height: 368px;
 
-img.what_are_we_doing-td {
+
+
+}
+
+.people_cards {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.person {
     margin-right: 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.person:last-child {
+    margin-right: 0px;
+}
+
+.person_img {
+    width: 270px;
+    height: 260px;
+
+}
+
+.person h3 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.person p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
 
 /* Main end */
