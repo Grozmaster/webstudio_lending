@@ -333,7 +333,10 @@ img.what_are_we_doing-td {
 }
 
 h2.our_team_h2 {
-    padding: 94px 668px 50px 668px;
+    /* padding: 94px 668px 50px 668px; */
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 50px;
 
     font-weight: 500;
     font-size: 36px;
