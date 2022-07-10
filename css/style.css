@@ -302,7 +302,11 @@ p.peculiarities_p {
 }
 
 h2.what_are_we_doing_h2 {
-    padding: 94px 612px 50px 612px;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    text-align: center;
+    
     font-weight: 500;
     font-size: 36px;
     line-height: 42px;
@@ -327,13 +331,7 @@ img.what_are_we_doing-td {
 
 }
 
-.our_team_box {
-    padding: 94px 668px 50px 668px;
-
-}
-
 h2.our_team_h2 {
-    /* padding: 94px 668px 50px 668px; */
     margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 50px;
@@ -343,7 +341,6 @@ h2.our_team_h2 {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
 
     color: #212121;
 }
