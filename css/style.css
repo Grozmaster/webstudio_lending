@@ -498,7 +498,7 @@ h2.our_team_h2 {
     width: 370px;
     height: 404px;
 
-    
+
 }
 
 .cards_list td:last-child {
@@ -510,11 +510,13 @@ h2.our_team_h2 {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: 0px;
+
+    padding: 20px 24px;
+   
 }
 
 .cards_list h2 {
-    padding-left: 24px;
-    padding-top: 20px;
+
     width: 370px;
 
     font-family: 'Roboto';
@@ -525,11 +527,10 @@ h2.our_team_h2 {
     letter-spacing: 0.06em;
 
     color: #212121;
- 
+
 }
 
 .cards_list p {
-    padding-left: 24px;
     padding-top: 4px;
     width: 370px;
 
