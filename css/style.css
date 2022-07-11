@@ -479,7 +479,9 @@ h2.our_team_h2 {
 }
 
 
-
+.hidden {
+    display: none;
+}
 
 .portfolio_wrapper {
     width: 1170px;
