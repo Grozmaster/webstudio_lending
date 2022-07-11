@@ -480,6 +480,13 @@ h2.our_team_h2 {
 
 
 
+
+.portfolio_wrapper {
+    width: 1170px;
+    height: 1360px;
+    margin-bottom: 94px;
+}
+
 .cards_list tr {
     display: flex;
     margin-bottom: 30px;
@@ -488,9 +495,9 @@ h2.our_team_h2 {
 
 }
 
-.cards_list tr:last-child {
+/* .cards_list tr:last-child {
     margin-bottom: 0px;
-}
+} */
 
 .cards_list td {
     margin-right: 30px;
@@ -512,7 +519,7 @@ h2.our_team_h2 {
     border-top: 0px;
 
     padding: 20px 24px;
-   
+
 }
 
 .cards_list h2 {
