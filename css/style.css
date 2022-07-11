@@ -79,11 +79,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
 
-    margin: 0;
-
     color: #212121;
-
-
 }
 
 
@@ -91,8 +87,7 @@ body {
 
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-    max-width: 1600px;
+    width: 1600px;
 
 }
 
@@ -104,7 +99,7 @@ body {
     min-width: 1600px;
     min-height: 80px;
     display: flex;
-    flex-wrap: wrap;
+
     align-items: center;
 
 }
@@ -136,6 +131,8 @@ body {
 
 }
 
+
+
 .main_menu_list-link:hover,
 .main_menu_list-link:focus,
 .main_menu_list-link:active {
@@ -166,7 +163,7 @@ body {
 
 .email-link {
     margin-right: 50px;
-    margin-left: 331px;
+    margin-left: 281px;
     color: #212121;
     text-decoration: none;
     font-weight: 400;
@@ -427,7 +424,125 @@ h2.our_team_h2 {
     color: #757575;
 }
 
-/* Main end */
+/* Main portfolio */
+.main_portfolio_page {
+    margin: 0 auto;
+
+    /* background-color: antiquewhite; */
+}
+
+.portfolio_wrapper {
+    width: 1170px;
+    height: 1360px;
+    margin-left: 215px;
+    margin-top: 94px;
+
+    /* background-color: aquamarine; */
+
+}
+
+.portfolio_filter {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+
+}
+
+.filter_button {
+    padding: 6px 22px;
+    margin-right: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+    border: hidden;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.filter_button:hover,
+.filter_button :active,
+.filter_button :focus {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+
+
+.cards_list tr {
+    display: flex;
+    margin-bottom: 30px;
+    width: 370px;
+    height: 404px;
+
+}
+
+.cards_list tr:last-child {
+    margin-bottom: 0px;
+}
+
+.cards_list td {
+    margin-right: 30px;
+
+    width: 370px;
+    height: 404px;
+
+    
+}
+
+.cards_list td:last-child {
+    margin-right: 0px;
+}
+
+
+.project {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: 0px;
+}
+
+.cards_list h2 {
+    padding-left: 24px;
+    padding-top: 20px;
+    width: 370px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+ 
+}
+
+.cards_list p {
+    padding-left: 24px;
+    padding-top: 4px;
+    width: 370px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
+}
 
 /* Footer */
 
