@@ -190,6 +190,11 @@ body {
 
 /* Header end */
 
+.line {
+    width: 1600px;
+    color: "#ECECEC";
+}
+
 /* Main start */
 
 .main {
