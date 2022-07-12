@@ -191,8 +191,7 @@ body {
 /* Header end */
 
 .line {
-    width: 1600px;
-    color: #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 /* Main start */
