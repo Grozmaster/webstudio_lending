@@ -436,7 +436,7 @@ h2.our_team_h2 {
 }
 
 .portfolio_wrapper {
-    width: 1170px;
+    max-width: 1170px;
     height: 1360px;
     margin-left: 215px;
     margin-top: 94px;
